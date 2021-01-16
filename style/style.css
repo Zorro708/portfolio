@@ -1,0 +1,338 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	position: fixed;
+	background: #171717;
+	width: 100%;
+	height: 50px;
+	z-index: 5;
+}
+nav{
+	text-align: center;
+}
+nav button {
+	background: #171717;
+	cursor: pointer;
+	color: white;
+	font-size: 17px;
+	padding: 15px;
+	border: none;
+	margin-right: -5px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	outline: none;
+}
+nav button:hover{
+	background: #44bbaa;
+}
+.profile_btn{
+}
+.resume_btn{
+
+}
+.jobs_btn{
+
+}
+.contact_btn{
+
+}
+.under_header{
+	background: url('../img/Я как депутат.jpeg');
+	background-size: cover;	
+	background-position: 0 50%;
+	width: 100%;
+	height: 520px;
+	color: #fff;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    overflow: auto;
+}
+.author_inf{
+	background: #2c3e50;
+	width: 400px;
+	margin-bottom: 130px;
+	padding: 10px;
+}
+.author_inf_name{
+	text-align: center;
+	width: 400px;
+	font-size: 60px;
+	border-bottom: 2px solid white;
+}
+.author_profession_contact{
+	margin-top: 5px;
+	text-align: center;
+	font-size: 19px;
+	font-size: 19px;
+	font-weight: 100;
+}
+.about{
+	display: flex;
+	width: 100%;
+	height: 200px;
+	background: #2c3e50;
+	color: #fff;
+	justify-content: center;
+}
+.about_container{
+	font-weight: 100;
+	display: flex;
+	justify-content: space-between;
+	width: 900px;
+	font-size: 18px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.about_container_about{
+	display: flex;
+	align-items: center;
+}
+.about_pdf a{
+	color: white;
+	text-decoration: none; 
+}
+.about_text{
+	padding: 35px;
+	text-transform: uppercase;
+}
+.about_pdf{
+	padding: 35px;
+}
+.blablabla{
+	background: #fff;
+	width: 100%;
+	height: 1000px
+}
+.skills{
+	width: 100%;
+	height: 500px;
+	background: #2c3e50;
+	position: relative;
+}
+.skills_text{
+	color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 10px;
+	position: absolute;
+	top: 17%;
+	left: 280px;
+}
+.skill-rounds{
+	position: absolute;
+	width: 800px;
+	height: 400px;
+	background: white;
+	top: 20px;
+	right: 90px;
+}
+.html-css-skill-body{
+	background: #000;
+	width: 300px;
+	height: 200px;
+}
+.html-css-skill-round{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background: #fff;
+	margin: 0 auto;
+}
+.html-css-skill-text{
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+}
+.html-css-skill-ring{
+	background: red;
+	width: 149px;
+	height: 149;
+}
+.html-css-skill-centralround{}
+.row{ 
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 1000px;
+	background: #fff;
+}
+.contact{
+	position: relative;
+	width: 100%;
+	height: 700px;
+	background: #2f2f2f;
+	color: silver;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.contact-text{
+	position: absolute;
+	top: 60px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+}
+.email p:nth-child(1){
+	font-weight: 700;
+}
+.phone p:nth-child(1){
+	font-weight: 700;
+}
+.social-links p:nth-child(1){
+	font-weight: 700;
+}
+.contact-list{
+	width:120px;
+	position: absolute;
+	top: 60px;
+	left: 500px;
+}
+.contact-list p{
+	padding: 10px 0px 5px 0px;
+}
+.contact-list{
+}
+.social-links span{
+	cursor: pointer;
+	border: 1px solid white;
+}
+.contact-list-youtube{
+	position: absolute;
+	background: url('img src="https://img.icons8.com/fluent/48/000000/youtube-play.png"')no-repeat;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+.contact-list-telegram{
+	position: absolute;
+	background: url('');
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	left: 30px;
+}
+.contact-list-facebook{
+	position: absolute;
+	background: url('');
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	left: 60px;
+}
+.contact-form{
+	position: absolute;
+	top: 60px;
+	right: 140px;
+}
+.contact-form input{
+	width: 400px;
+	height: 25px;
+	border-radius: 20px;
+	padding: 10px;
+	outline: none;
+	border: none;
+}
+.contact-form input:focus{
+	box-shadow: 0 0 4px #44bbaa;
+}
+.contact-form-text{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.contact-form-user-text{
+	padding: 10px 0px 10px 0px;
+}
+.contact-form-message-area{
+	width:400px;
+	height: 100px;
+	padding: 10px;
+	outline: none;
+	border-radius: 10px;
+}
+.contact-form-message-area:focus{
+	box-shadow: 0 0 4px #44bbaa;
+}
+.contact-form-send-btn{
+	background: #44bbaa;
+	border: none;
+	color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 14px 25px;
+	margin-top: 10px;
+	margin-left: 10px;
+	outline: none;
+}
+.contact-form-send-btn:hover{
+	background: #38A3AAFF;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background: #242424;
+	width: 100%;
+	height: 100px;
+	color: #fff;
+  	flex-shrink: 0;
+}
+.footer_copytight{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.cop_created{
+	padding-top: 10px;
+	text-align: center;
+	color: gray;
+}
+
+/*For Github*/
+.warning{
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	background: red;
+	border: 1px solid black;
+	top: 50%;
+	left: 0;
+	user-select: none;
+	cursor: pointer;
+}
+.warning-text{
+	position: relative;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	top: -5%;
+}
+.warning-item{
+	display: none;
+	background: #38A3AAFF;
+	position: fixed;
+	font-size: 20px;
+	border: 1px solid white;
+	width: 300px;
+	padding: 20px;
+	top: 40%;
+	left: 0;
+}
+.warning-body{
+	position: relative;
+}
+.warning-item-close-btn{
+	color: white;
+	background: red;
+	padding: 3px;
+	padding-left: 7px;
+	width: 14px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	user-select: none;
+	cursor: pointer;
+}
