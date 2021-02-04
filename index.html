@@ -2,18 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<link rel="stylesheet" href="style/style.css">
 	<title>Zorro Klaver HTML/CSS JS</title>
 </head>
 <body>
 	<header>
-		<nav>
-			<button class="profile_btn">Profile</button>
-			<button class="resume_btn">Resume</button>
-			<button class="jobs_btn">Jobs</button>
-			<button class="contact_btn">Contacts</button>
-		</nav>
+		<div class="header-body">
+			<nav>
+				<button class="profile_btn">Profile</button>
+				<button class="resume_btn">Resume</button>
+				<button class="jobs_btn">Jobs</button>
+				<button class="contact_btn">Contacts</button>
+			</nav>
+
+			<div class="burger-menu">
+			 	<span></span>
+			</div>
+		</div>
 	</header>
 
 	<div class="under_header">
@@ -38,56 +44,76 @@
 	</div>
 
 	<div class="blablabla">
-		
+
 	</div>
 
 	<div class="skills">
-		<div class="skills_text">
-			<p>Skills</p>
-		</div><!--
-		<div class="skill-rounds">
-			<div class="html-css-skill-body">
-				<div class="html-css-skill-round">
-					<div class="html-css-skill-ring">
-						<div class="html-css-skill-central">
-							
+		<div class="skills-row">
+			<div class="skills-body">
+				<div class="skills_text">
+					<p>Skills</p>
+				</div>
+			</div>
+			<div class="skills-item">
+				<div class="skills-item-row">
+					<div class="skills-html">
+						<div class="html-css-skill-round">
+							<div class="html-css-skill-ring">
+								<div class="html-css-skill-central">
+								</div>
+							</div>
 						</div>
+						<p class="html-css-skill-text">HTML/CSS</p>
+					</div>
+					<div class="skills-html">
+						<div class="html-css-skill-round">
+							<div class="html-css-skill-ring">
+								<div class="html-css-skill-central">
+								</div>
+							</div>
+						</div>
+						<p class="html-css-skill-text">Javascript</p>
+					</div>
+					<div class="skills-html">
+						<div class="html-css-skill-round">
+							<div class="html-css-skill-ring">
+								<div class="html-css-skill-central">
+													
+								</div>
+							</div>
+						</div>
+						<p class="html-css-skill-text">WordPress</p>
 					</div>
 				</div>
-				<p class="html-css-skill-text">HTML/CSS</p>
-			</div>
-			<div class="js-skill-round">
-				
 			</div>
 		</div>
-	-->
 	</div>
-
 	<div class="row">
 		<div class="portfolio-text"><p>Potrfolio</p></div>
 	</div>
 
 	<div class="contact">
-		<div class="contact-text">Contact</div>
-		<div class="contact-list">
-			<div class="email">
-				<p>Email:</p>
-				<p>zorrintopper@gmail.com</p>
+		<div class="contact-body">
+			<div class="contact-text">Contact</div>
+			<div class="contact-list">
+				<div class="email">
+					<p>Email:</p>
+					<p>zorrintopper@gmail.com</p>
+				</div>
+				<div class="phone">
+					<p>Phone:</p>
+					<p>+994 470-60-56</p>
+				</div>
+				<div class="social-links">
+					<p>Social Links:</p>
+					<p>Временно не доступно:(</p>
+					<!--
+					<a><span class="contact-list-youtube"></span></a>
+					<a><span class="contact-list-telegram"></span></a>
+					<a><span class="contact-list-facebook"></span></a>
+				-->
+				</div>
 			</div>
-			<div class="phone">
-				<p>Phone:</p>
-				<p>+994 470-60-56</p>
-			</div>
-			<div class="social-links">
-				<p>Social Links:</p>
-				<p>Временно не доступно:(</p>
-				<!--
-				<a><span class="contact-list-youtube"></span></a>
-				<a><span class="contact-list-telegram"></span></a>
-				<a><span class="contact-list-facebook"></span></a>
-			-->
-			</div>
-		</div>
 			<div class="contact-form">
 				<p class="contact-form-text">Contact Form</p>
 				<div class="name-form">
@@ -108,6 +134,7 @@
 				</div>
 				<button class="contact-form-send-btn">Send Message</button>				
 			</div>
+		</div>
 	</div>
 
 	<footer>
@@ -116,7 +143,6 @@
 			<p class="cop_created">Created with Zorro</p>
 		</div>
 	</footer>
-
 	<!--For github-->
 	<div class="warning">
 		<p class="warning-text">!</p>
